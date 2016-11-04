@@ -18410,3 +18410,3396 @@ tag: int value: smsToMmsTextThreshold - -1
 tag: bool value: enableSlideDuration - true
 tag: int value: maxMessageTextSize - -1
 tag: bool value: enableSprintVVM - false
+--------- beginning of /dev/log/main
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93239665, downTime=93239665, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93239665, downTime=93239665, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 551K/2560K, paused 0ms+1ms, total 5ms
+NOTE: attach of thread 'Binder_1' failed
+--------- beginning of /dev/log/system
+Timer 0x3->0x3|0x0
+update start
+level:29 scale:100 status:2 health:2 present:true voltage: 3728 temperature: 350 technology: Li-ion AC powered:false USB powered:true icon:17303239 invalid charger:0
+In MTPAPP onReceive:android.intent.action.BATTERY_CHANGED
+battPlugged Type : 2
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+Shutting down VM
+GC_CONCURRENT freed 100K, 77% free 591K/2560K, paused 1ms+0ms, total 4ms
+id=421(63) createSurf 0x412f2f24 (1x1),1 flag=0, tettings
+PhoneWindowManager: focusChangedLw
+NOTE: attach of thread 'Binder_3' failed
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+ ssp status : false
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+GC_CONCURRENT freed 189K, 13% free 7922K/9031K, paused 1ms+2ms, total 19ms
+SwitchPreferenceScreen should get fragment property. Fragment property does not exsit in SwitchPreferenceScreen
+mInputFocus is not null.
+Removed 2131428320
+Removed 2131428335
+id=422(1) createSurf 0x4183ae9c (1x1),1 flag=0, Tettings$Lo
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Enabling debug mode 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+Removed 2131428320
+Removed 2131428335
+*** release_dvfs_lock : lockType : 1 
+id=416 Removed Mauncher idx=1 MapSz=5
+id=416 Removed Mauncher idx=-2 MapSz=5
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+id=421 Removed tettings idx=4 MapSz=4
+id=421 Removed tettings idx=-2 MapSz=4
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93247390, downTime=93247390, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93247390, downTime=93247390, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 0ms+0ms, total 5ms
+NOTE: attach of thread 'Binder_2' failed
+handleEnable
+set_capabilities_callback: 6
+GC_CONCURRENT freed 1202K, 19% free 13492K/16647K, paused 15ms+20ms, total 102ms
+waitForAlarm result :8
+ClockReceiver onReceive() ACTION_TIME_TICK
+FACTORY_ON= 0
+Cache value 0x539e1d50 deleted, size = 144
+Cache value 0x539e1fa0 deleted, size = 144
+Timer 0x3->0x3|0x0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+id=423(64) createSurf 0x4183af4c (1x1),1 flag=0, naps
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 598K/2560K, paused 0ms+1ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+GC_CONCURRENT freed 167K, 13% free 7648K/8711K, paused 14ms+2ms, total 43ms
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+mInputFocus is not null.
+mInputFocus is not null.
+Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.android.apps.gmm.navigation.util.NavigationAvailabilityProvider
+No current context - attempting to create off-screen context
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+GC_CONCURRENT freed 336K, 14% free 7844K/9095K, paused 11ms+1ms, total 27ms
+GC_CONCURRENT freed 335K, 14% free 8057K/9287K, paused 12ms+2ms, total 38ms
+WAIT_FOR_CONCURRENT_GC blocked 4ms
+WAIT_FOR_CONCURRENT_GC blocked 4ms
+id=422 Removed Tettings$Lo idx=2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+id=422 Removed Tettings$Lo idx=-2 MapSz=4
+Sucessfully bound to com.google.android.tts
+Loading project file (apk mode is true) ...
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/textnorm_swift_en.cfg" ...
+StrictMode policy violation; ~duration=143 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.googlenav.location.e.b(SourceFile:242)
+	at com.google.googlenav.location.e.<init>(SourceFile:223)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:87)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=112 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.android.apps.gmm.location.a.m.b(SourceFile:204)
+	at com.google.android.apps.gmm.location.a.m.<init>(SourceFile:185)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:104)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=53 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java)
+	at android.app.SharedPreferencesImpl.getString(SharedPreferencesImpl.java)
+	at com.google.android.apps.gmm.util.ad.a(SourceFile:120)
+	at com.google.android.apps.gmm.navigation.alert.P.c(SourceFile:254)
+	at com.google.android.apps.gmm.navigation.alert.P.<init>(SourceFile:244)
+	at com.google.android.apps.gmm.navigation.alert.c.<init>(SourceFile:367)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:115)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+GC_CONCURRENT freed 241K, 12% free 8343K/9479K, paused 12ms+24ms, total 53ms
+WAIT_FOR_CONCURRENT_GC blocked 3ms
+WAIT_FOR_CONCURRENT_GC blocked 10ms
+WAIT_FOR_CONCURRENT_GC blocked 10ms
+[android_project_file.cc:32] Loading "eng-gbr/en-GB.blex" ...
+[android_project_file.cc:32] Loading "eng-gbr/en_number_names.far" ...
+[grm-manager.h:119] Loading FST archive from "eng-gbr/en_number_names.far" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+GC_CONCURRENT freed 342K, 13% free 8577K/9799K, paused 12ms+2ms, total 42ms
+Get MotionRecognitionManager
+ ssp status : false
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[grm-manager.h:148] Loaded 15 grammars.
+CHECK_ERROR:false STRICT_MODE:false FAIL_ON_GL_ERROR:false
+[android_project_file.cc:32] Loading "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+[decoder_compat_android-inl.h:31] fst_g2p: Loading FST from "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[decoder_impl.cc:64] g2p FST: 30 graphemes, 46 phonemes (with special symbols)
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+[embedded_hmm_synthesizer.cc:27] Embedded HMM synthesizer initialized.
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/compile_hmm_16000_0_ph_lsp_swop_ap_msd.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/rjs_16000_0_hmm_ph_hmm_en-GB_swift_c30300932_d1331306185_OTA.2.1.voice" ...
+GC_FOR_ALLOC freed 137K, 11% free 8809K/9863K, paused 18ms, total 18ms
+GC_FOR_ALLOC freed 9K, 11% free 9131K/10183K, paused 16ms, total 16ms
+GC_CONCURRENT freed 199K, 11% free 9598K/10695K, paused 12ms+13ms, total 44ms
+WAIT_FOR_CONCURRENT_GC blocked 15ms
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+WAIT_FOR_CONCURRENT_GC blocked 14ms
+GC_FOR_ALLOC freed 15K, 11% free 10005K/11207K, paused 27ms, total 27ms
+GC_FOR_ALLOC freed 2K, 10% free 10649K/11783K, paused 16ms, total 16ms
+GC_FOR_ALLOC freed 90K, 9% free 11456K/12551K, paused 17ms, total 17ms
+GC_CONCURRENT freed 222K, 9% free 12649K/13767K, paused 2ms+2ms, total 22ms
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+thread start
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=66667000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 66667 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/aa)/(
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+Scan requested (ret=0) - scan timeout 30 seconds
+FACTORY_ON= 0
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-f-*/8
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66667000 
+akm_set_delay: accel same delay = 66667000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=1 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=1 ns=200000000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=5 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=5 ns=200000000 
+info.selectDelay() ns=66666000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=20000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=5000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 1601335158  name= Rotation Vector Sensor delay= 66666 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-f-*/8
+setMinTime 0
+startNavigating
+getSKAFEnable : false
+request gps (pid 20300) 0 0
+request network (pid 20300) 0 0
+reportStatus status: 3
+reportStatus status: 1
+send an intent to notify that the GPS has been enabled or disabled mNavigating = true
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+isStatusBarNotificationAllowed: packageName = com.android.systemui
+Noti Alert - mSystemReady:true, AlertEnabled:true
+addNotification score=10
+FACTORY_ON= 0
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+Cache value 0x53866220 deleted, size = 144
+com.android.internal.widget.SizeAdaptiveLayout@41db2b90child view android.widget.FrameLayout@41c9ba80 measured out of bounds at 95px clamped to 96px
+mInputFocus is not null.
+Connected to TTS Service
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+GC_CONCURRENT freed 1038K, 13% free 13434K/15367K, paused 2ms+3ms, total 34ms
+WAIT_FOR_CONCURRENT_GC blocked 15ms
+id=424(1) createSurf 0x4183af1c (1x1),1 flag=0, NapsActivit
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Enabling debug mode 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+setMinTime 0
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66666000 
+akm_set_delay: accel same delay = 20000000 
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 20000 Trklfufi 9 drk@,*-c8cf(
+request gps (pid 2600) 5000 0
+FACTORY_ON= 0
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+this.sizeChangeListener is empty
+GC_FOR_ALLOC freed 582K, 14% free 14145K/16391K, paused 27ms, total 27ms
+id=424 Removed NapsActivit idx=3 MapSz=4
+id=425(2) createSurf 0x41af926c (480x800),1 flag=400, NapsActivit
+setBufferCount: SurfaceTexture has been abandoned!
+ISurfaceTexture::setBufferCount(0) returned No such device
+id=424 Removed NapsActivit idx=-2 MapSz=5
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+id=423 Removed naps idx=4 MapSz=4
+id=423 Removed naps idx=-2 MapSz=4
+GC_EXPLICIT freed 424K, 19% free 13632K/16647K, paused 14ms+14ms, total 132ms
+GC_CONCURRENT freed 686K, 10% free 15410K/17031K, paused 3ms+16ms, total 80ms
+getGsmLevel=4
+getLevel=4 (SignalStrength: 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+FACTORY_ON= 0
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+getGsmLevel=4
+getLevel=4 (SignalStrength: 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 894K, 11% free 15728K/17671K, paused 16ms+8ms, total 184ms
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93255058, downTime=93255058, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93255058, downTime=93255058, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 106K, 79% free 552K/2560K, paused 0ms+0ms, total 4ms
+Cache value 0x539e3cc8 deleted, size = 144
+Timer 0x3->0x3|0x0
+waitForAlarm result :4
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+nl80211: Received scan results (15 BSSes)
+interfaceLinkStateChanged wlan0, true
+interfaceStatusChanged wlan0, true
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+FACTORY_ON= 0
+FACTORY_ON= 0
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+Scan requested (ret=0) - scan timeout 30 seconds
+FACTORY_ON= 0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 591K/2560K, paused 0ms+1ms, total 4ms
+NOTE: attach of thread 'Binder_3' failed
+setMinTime 5000
+remove gps (pid 20300), next minTime = 5000
+remove network (pid 20300), next minTime = 86400000
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-f-*/8
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=1 
+FACTORY_ON= 0
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=1 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=5 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=5 ns=5000000 
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/aa)/(
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+unregisterListener:: Trklfufi 9 drk@,*-c8cf(
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+remove gps (pid 2600), disabled
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+stopNavigating
+reportStatus status: 2
+send an intent to notify that the GPS has been enabled or disabled mNavigating = false
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+native_setup
+mInputFocus is not null.
+mInputFocus is not null.
+constructor
+setListener
+setDataSourceFD: fd 56
+setDataSource(56, 0, 576460752303423487)
+Client(9) constructor
+Create new client(9) from pid 19686, uid 10042, 
+setDataSource fd=41, offset=0, length=576460752303423487
+st_dev  = 66307
+st_mode = 33277
+st_uid  = 1000
+st_gid  = 1015
+st_size = 4434705
+calculated length = 4434705
+player type = 3
+ create StagefrightPlayer
+setDefault
+constructor
+setDefault
+reset
+cancel player events
+mAudioTrackVector clear
+StagefrightPlayer
+setListener
+initCheck
+AwesomePlayer running on behalf of uid 10042
+AudioOutput(15)
+setDataSource(41, 0, 4434705)
+setDataSource (42, 0, 4434705)
+cancel player events
+mAudioTrackVector clear
+preventAutoPowerOff : 0  bPrevent : true
+preventAutoPowerOff : resetAutoPowerOffTimer()
+resetAutoPowerOffTimer : 0
+WVMDrmPlugin::onInitialize : 7623
+WVMDrmPlugin::onSetOnInfoListener : add 7623
+OmaLogOn
+PlayReadyLogOn
+WVMDrmPlugin::onTerminate : 7623
+mBitrate = 128000 bits/sec
+couldn't get userdata - Weather
+couldn't get userdata - Authorization 
+couldn't get userdata - SnapShot 
+current audio track index (0) is added to vector
+setDataSource_l: Audio(1), Video(0)
+AwesomePlayer::setDataSource_l():: This is not a DRM content
+ setDataSource
+setVideoSurfaceTexture
+[9] setVideoSurfaceTexture(0x0)
+prepareAsync
+[9] setAudioStreamType(3)
+[9] prepareAsync
+prepareAsync
+reportStatus status: 4
+onPrepareAsyncEvent
+initAudioDecoder()
+Create() mime = audio/mpeg, isAlpAudio = 1
+ DO NOT attach ALP (isAplAudio:1, mIsALPrunning: 1
+FACTORY_ON= 0
+id=426(8) createSurf 0x40efcd1c (1x1),1 flag=0, BudioPrevie
+updateLightsLocked() : Turn off notification light
+mInputFocus is not null.
+PhoneWindowManager: focusChangedLw
+FACTORY_ON= 0
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Successfully allocated OMX node 'OMX.SEC.mp3.dec'
+OMXCodec::configureCodec 2 + 44100 ++ 
+notifyListner_l() msg (5-MEDIA_SET_VIDEO_SIZE), ext1 (0), ext2 (0)
+[9] notify (0x41dc95a8)
+[9] notify (0x41dc95a8, 5, 0, 0)
+notifyListner_l() msg (1-MEDIA_PREPARED), ext1 (0), ext2 (0)
+[9] notify (0x41dc95a8)
+[9] notify (0x41dc95a8, 1, 0, 0)
+message received msg=5, ext1=0, ext2=0
+New video size 0 x 0
+callback application
+back from callback
+message received msg=1, ext1=0, ext2=0
+prepared
+callback application
+back from callback
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+Don't send intent. msg.arg1 = 0, msg.arg2 = 0
+start
+start
+[9] setLooping(0)
+setLooping
+setLooping (0)
+[9] setVolume(1.000000, 1.000000)
+setVolume(1.000000, 1.000000)
+[9] setAuxEffectSendLevel(0.000000)
+setAuxEffectSendLevel(0.000000)
+[9] start
+setLooping
+setLooping (0)
+start
+play
+AwesomePlayer::play_l():: This is not a DRM content
+ Audioplayer kKeyAudioPCMFormat:1, 2, 0
+ Audioplayer1 (2, 1)
+open(44100, 2, 0x0, 1, 4, 15)
+getOutput() tid 2156 ++
+getOutput() tid 2156 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 2156 ++
+getOutput() tid 2156 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 2156 ++
+getOutput() tid 2156 --
+getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 8
+getOutput() returns output 2
+setVolume
+getOutput() tid 2156 ++
+getOutput() tid 2156 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+start
+startOutput() output 2, stream 3, session 15
+changeRefCount() stream 3, count 1
+getNewDevice() selected device 2
+AudioHardware::setParameters(keyValuePairs="music_stream_active=true")
+getNewDevice() selected device 2
+getNewDevice() selected device 2
+checkOutputForStrategy(0002,0002,3)
+AudioFlinger::PlaybackThread::addTrack_l() start_output_streamtype(1, 3) for 2
+getDuration
+getDuration
+getDuration
+[9] getDuration = 277133
+getDuration: 277133 (msec)
+ AudioFocus  requestAudioFocus() from 19686 focusChangeHint:2
+AudioFocus: received AUDIOFOCUS_LOSS_TRANSIENT
+pause: transient=true, currentPos=0
+isPlaying
+[9] isPlaying: 1
+isPlaying: 1
+isPlaying: 1
+UserDep::getRouteInfo(output: audioengine=0, devices=00000002h
+                      incall: onoff=0, devices=00000000h
+                      capture: onoff=0, devices=00000000h, audioSource=0
+                      playback: audio_onoff=1, line_onoff=0)
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+Initialized ALSA PLAYBACK device hifi
+GC_CONCURRENT freed 635K, 17% free 9464K/11335K, paused 15ms+4ms, total 64ms
+getCurrentPosition
+getCurrentPosition: 313 (msec)
+getCurrentPosition
+getCurrentPosition: 313 (msec)
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+getCurrentPosition
+getCurrentPosition: 522 (msec)
+getCurrentPosition
+getCurrentPosition: 522 (msec)
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+!@Sync 3108
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+release
+setListener
+disconnect
+disconnect(9) from pid 19686
+reset
+reset
+cancel player events
+mAudioTrackVector clear
+stop
+stopOutput() output 2, stream 3, session 15
+changeRefCount() stream 3, count 0
+AudioHardware::setParameters(keyValuePairs="music_stream_active=false")
+getNewDevice() selected device 0
+checkOutputForStrategy(0002,0002,3)
++++ close
+releaseOutput() 2
+--- close
+[OMX.SEC.mp3.dec] stop() sendCommand(0x16, OMX_CommandStateSet, OMX_StateIdle)
+Shutting down VM
+[OMX.SEC.mp3.dec] stopped in state 1
+GC_CONCURRENT freed 102K, 77% free 594K/2560K, paused 1ms+1ms, total 5ms
+~StagefrightPlayer
+reset
+reset
+cancel player events
+mAudioTrackVector clear
+reset
+cancel player events
+mAudioTrackVector clear
+~AwesomePlayer()
+destructor
+disconnect
+Client(9) destructor pid = 19686
++++ close
+--- close
+disconnect(9) from pid 19686
+ AudioFocus  abandonAudioFocus() from 19686
+AudioFocus: received AUDIOFOCUS_GAIN
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+setVolume: left 1.000000  right 1.000000
+MediaPlayer::setVolume(1.000000, 1.000000)
+[8] setVolume(1.000000, 1.000000)
+setVolume(1.000000, 1.000000)
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41bc0008 (uid=10041 pid=19368)
+Starting input on non-focused client com.android.internal.view.IInputMethodClient$Stub$Proxy@41bc0008 (uid=10041 pid=19368)
+id=427(2) createSurf 0x412a6c0c (480x800),1 flag=0, DomposeMess
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+AudioFlinger::MixerThread::prepareTracks_l stop_output_streamtype(1, 3) for 2
+GC_CONCURRENT freed 255K, 13% free 8602K/9799K, paused 13ms+5ms, total 46ms
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+--------- beginning of /dev/log/main
+getGsmLevel=4
+getLevel=4 (SignalStrength: 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmLevel=4
+getLevel=4 (SignalStrength: 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+--------- beginning of /dev/log/system
+FACTORY_ON= 0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93400426, downTime=93400426, deviceId=0, source=0x1002 }
+Dropped event because input dispatch is disabled.
+Screen__On : userActivity : input  uid=1000 pid=2189
+userActivity : mUserState 0x7
+reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=true
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93400426, downTime=93400426, deviceId=0, source=0x1002 }
+enableLightSensorLocked enable=true mLightSensorEnabled=false mAutoBrightessEnabled=true mWaitingForFirstLightSensor=false
+lightSensorChangedLocked value=100 immediate=true
+dropping lightSensorChangedLocked because screen is off
+Input event injection from pid 20592 failed.
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=3 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=3 ns=200000000 
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 3  name= CM3663 Light Sensor delay= 200000 Trklfufi 9 cwv5budiwrd5kfimfi5HwofiVbubgfiKfimrcf$*8@,*-:8(c(
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+akm_enable_sensor: Accel is enabled. (orien = 0)
+enable_accelerometer, mEnabled = 0, enable = 1
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=0 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=200000000  
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Trklfufi 9 cwv5budiwrd5kfimfi5HwofiVbubgfiKfimrcf$*:@,*-8dcc(
+sendNotificationLocked on=true
+set_light_button on=1
+Dropped event because input dispatch is disabled.
+onScreenTurnedOn, seq = 39
+notifyScreenOnLocked
+mSetIgnorePWR
+sensor was already activated for this ident
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=200000000  
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Trklfufi 9 budiwrd5mrfo5OrudwoWirfulblrwuTrklfufi$KfukwiFmfulTrklfufiRvht@,*8c/d)8
+Ulight 0x0->0x4|0x0
+mNotificationTask : on
+enable register mbSContext: false
+WindowOrientationListener enabled
+Shutting down VM
+handleNotifyScreenOn
+*** acquire_dvfs_lock : lockType : 1  freq : 1200000 
+Input event injection from pid 20592 failed.
+No lock screen!
+Ulight 0x7->0x7|0x1
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1200000  uid : 1000  pid : 2189  tag : AMOLED_Animation
+GC_CONCURRENT freed 105K, 79% free 551K/2560K, paused 1ms+0ms, total 6ms
+turn off LED
+ACTION_SCREEN_ON
+updateLightsLocked() : Turn off notification light
+AudioHardware::setParameters(keyValuePairs="screen_state=on")
+TvoutService Action : android.intent.action.SCREEN_ON
+*** release_dvfs_lock : lockType : 1 
+Light Animator Finished currentValue=110
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+onScreenOnIntent
+Recieved intent android.intent.action.SCREEN_ON
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+Screen about to return, flinger = 0x412ffd78
+virtual void android::SecTVOutService::setSuspendMode(uint32_t) TV suspend mode = 0
+virtual void android::SecTVOutService::setHdmiStatus(uint32_t) HDMI cable status = 1
+bool android::SecHdmi::connect()::m_flagHWConnected() fail 
+virtual void android::SecTVOutService::setHdmiStatus(uint32_t)::mSecHdmi.connect() fail
+lightSensorChangedLocked value=100 immediate=true
+lcdValue 110
+buttonValue 0
+keyboardValue 0
+lightSensorChangedLocked : mKeyboardLight : 0
+mUnSetIgnorePWR
+set_light_button on=0
+Timer 0x7->0x3|0x0
+Ulight 0x7->0x3|0x0
+getGsmLevel=4
+getLevel=4 (SignalStrength: 13 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmLevel=4
+getLevel=4 (SignalStrength: 13 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmDbm=-87
+getDbm=-87
+getGsmAsuLevel=13
+getAsuLevel=13
+getGsmDbm=-87
+getDbm=-87
+getGsmAsuLevel=13
+getAsuLevel=13
+getGsmDbm=-87
+getDbm=-87
+getGsmAsuLevel=13
+getAsuLevel=13
+FACTORY_ON= 0
+update start
+level:30 scale:100 status:2 health:2 present:true voltage: 3867 temperature: 360 technology: Li-ion AC powered:false USB powered:true icon:17303239 invalid charger:0
+In MTPAPP onReceive:android.intent.action.BATTERY_CHANGED
+battPlugged Type : 2
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+GC_CONCURRENT freed 100K, 77% free 591K/2560K, paused 0ms+1ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+id=465(67) createSurf 0x412af71c (1x1),1 flag=0, tettings
+rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_CONCURRENT freed 179K, 13% free 7636K/8711K, paused 2ms+1ms, total 19ms
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+Pub com.android.settings.reverb.params: com.android.settings.autohaptic.ReverbContentProvider
+Pub com.android.settings.personalvibration.PersonalVibrationProvider: com.android.settings.personalvibration.PersonalVibrationProvider
+Get MotionRecognitionManager
+ ssp status : false
+Get MotionRecognitionManager
+id=463 Removed Mauncher idx=2 MapSz=4
+id=463 Removed Mauncher idx=-2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+SwitchPreferenceScreen should get fragment property. Fragment property does not exsit in SwitchPreferenceScreen
+GC_CONCURRENT freed 147K, 13% free 7940K/9031K, paused 2ms+2ms, total 18ms
+mInputFocus is not null.
+Removed 2131428320
+Removed 2131428335
+id=466(1) createSurf 0x412f11d4 (1x1),1 flag=0, Tettings$Lo
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Enabling debug mode 0
+*** release_dvfs_lock : lockType : 1 
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+Removed 2131428320
+Removed 2131428335
+id=465 Removed tettings idx=3 MapSz=4
+id=465 Removed tettings idx=-2 MapSz=4
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93408114, downTime=93408114, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93408114, downTime=93408114, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 0ms+1ms, total 5ms
+NOTE: attach of thread 'Binder_2' failed
+handleEnable
+set_capabilities_callback: 6
+PANU : true
+LocalBluetoothProfileManager construction complete
+Timer 0x3->0x3|0x0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+id=467(68) createSurf 0x412af71c (1x1),1 flag=0, naps
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 598K/2560K, paused 0ms+1ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+mInputFocus is not null.
+mInputFocus is not null.
+GC_CONCURRENT freed 175K, 13% free 7640K/8711K, paused 13ms+3ms, total 38ms
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.android.apps.gmm.navigation.util.NavigationAvailabilityProvider
+No current context - attempting to create off-screen context
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+GC_CONCURRENT freed 340K, 14% free 7886K/9095K, paused 2ms+11ms, total 36ms
+GC_CONCURRENT freed 364K, 14% free 8109K/9351K, paused 3ms+13ms, total 45ms
+WAIT_FOR_CONCURRENT_GC blocked 1ms
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+getGsmLevel=4
+getLevel=4 (SignalStrength: 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmLevel=4
+getLevel=4 (SignalStrength: 14 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+FACTORY_ON= 0
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+getGsmDbm=-85
+getDbm=-85
+getGsmAsuLevel=14
+getAsuLevel=14
+Sucessfully bound to com.google.android.tts
+id=466 Removed Tettings$Lo idx=2 MapSz=4
+id=466 Removed Tettings$Lo idx=-2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+Loading project file (apk mode is true) ...
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/textnorm_swift_en.cfg" ...
+StrictMode policy violation; ~duration=146 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.googlenav.location.e.b(SourceFile:242)
+	at com.google.googlenav.location.e.<init>(SourceFile:223)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:87)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=132 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.android.apps.gmm.location.a.m.b(SourceFile:204)
+	at com.google.android.apps.gmm.location.a.m.<init>(SourceFile:185)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:104)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=34 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java)
+	at android.app.SharedPreferencesImpl.getString(SharedPreferencesImpl.java)
+	at com.google.android.apps.gmm.util.ad.a(SourceFile:120)
+	at com.google.android.apps.gmm.navigation.alert.P.c(SourceFile:254)
+	at com.google.android.apps.gmm.navigation.alert.P.<init>(SourceFile:244)
+	at com.google.android.apps.gmm.navigation.alert.c.<init>(SourceFile:367)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:115)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+[android_project_file.cc:32] Loading "eng-gbr/en-GB.blex" ...
+GC_CONCURRENT freed 368K, 14% free 8248K/9543K, paused 11ms+9ms, total 55ms
+[android_project_file.cc:32] Loading "eng-gbr/en_number_names.far" ...
+[grm-manager.h:119] Loading FST archive from "eng-gbr/en_number_names.far" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[grm-manager.h:148] Loaded 15 grammars.
+[android_project_file.cc:32] Loading "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+GC_CONCURRENT freed 186K, 12% free 8543K/9671K, paused 13ms+3ms, total 41ms
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+Get MotionRecognitionManager
+ ssp status : false
+[decoder_compat_android-inl.h:31] fst_g2p: Loading FST from "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[decoder_impl.cc:64] g2p FST: 30 graphemes, 46 phonemes (with special symbols)
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+[embedded_hmm_synthesizer.cc:27] Embedded HMM synthesizer initialized.
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/compile_hmm_16000_0_ph_lsp_swop_ap_msd.cfg" ...
+CHECK_ERROR:false STRICT_MODE:false FAIL_ON_GL_ERROR:false
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+[android_project_file.cc:32] Loading "eng-gbr/rjs_16000_0_hmm_ph_hmm_en-GB_swift_c30300932_d1331306185_OTA.2.1.voice" ...
+GC_FOR_ALLOC freed 133K, 11% free 8809K/9863K, paused 16ms, total 16ms
+GC_FOR_ALLOC freed 9K, 11% free 9131K/10183K, paused 16ms, total 16ms
+GC_CONCURRENT freed 115K, 10% free 9572K/10631K, paused 12ms+2ms, total 31ms
+GC_FOR_ALLOC freed 87K, 10% free 10053K/11079K, paused 27ms, total 27ms
+GC_FOR_ALLOC freed 62K, 9% free 10916K/11911K, paused 16ms, total 17ms
+GC_CONCURRENT freed 124K, 9% free 11950K/12999K, paused 11ms+3ms, total 36ms
+WAIT_FOR_CONCURRENT_GC blocked 11ms
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+WAIT_FOR_CONCURRENT_GC blocked 10ms
+GC_CONCURRENT freed 423K, 10% free 13088K/14407K, paused 12ms+3ms, total 35ms
+WAIT_FOR_CONCURRENT_GC blocked 13ms
+thread start
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=66667000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 66667 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/c:ad8
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+Scan requested (ret=0) - scan timeout 30 seconds
+FACTORY_ON= 0
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66667000 
+akm_set_delay: accel same delay = 66667000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=1 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=1 ns=200000000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=5 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=5 ns=200000000 
+info.selectDelay() ns=66666000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=20000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=5000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 1601335158  name= Rotation Vector Sensor delay= 66666 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+setMinTime 0
+request gps (pid 20672) 0 0
+startNavigating
+reportStatus status: 3
+reportStatus status: 1
+send an intent to notify that the GPS has been enabled or disabled mNavigating = true
+getSKAFEnable : false
+request network (pid 20672) 0 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2524, uid=10012
+isStatusBarNotificationAllowed: packageName = com.android.systemui
+Noti Alert - mSystemReady:true, AlertEnabled:true
+FACTORY_ON= 0
+addNotification score=10
+FACTORY_ON= 0
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+Cache value 0x53c441c8 deleted, size = 144
+com.android.internal.widget.SizeAdaptiveLayout@41d3eac8child view android.widget.FrameLayout@41c527f8 measured out of bounds at 95px clamped to 96px
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+mInputFocus is not null.
+Connected to TTS Service
+id=468(1) createSurf 0x40efcf2c (1x1),1 flag=0, NapsActivit
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Enabling debug mode 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+setMinTime 0
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66666000 
+akm_set_delay: accel same delay = 20000000 
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 20000 Trklfufi 9 drk@,*-c8cf(
+request gps (pid 2600) 5000 0
+FACTORY_ON= 0
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+GC_CONCURRENT freed 1330K, 15% free 13663K/15943K, paused 3ms+3ms, total 37ms
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+GC_FOR_ALLOC freed 46K, 15% free 14198K/16519K, paused 37ms, total 38ms
+this.sizeChangeListener is empty
+id=468 Removed NapsActivit idx=2 MapSz=4
+id=469(2) createSurf 0x410703a4 (480x800),1 flag=400, NapsActivit
+id=468 Removed NapsActivit idx=-2 MapSz=5
+id=467 Removed naps idx=3 MapSz=4
+id=467 Removed naps idx=-2 MapSz=4
+!@Sync 3113
+GC_CONCURRENT freed 759K, 10% free 15444K/17159K, paused 13ms+14ms, total 75ms
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 882K, 12% free 15745K/17799K, paused 15ms+5ms, total 145ms
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93415753, downTime=93415753, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93415753, downTime=93415753, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 106K, 79% free 552K/2560K, paused 1ms+0ms, total 5ms
+GC_CONCURRENT freed 1385K, 13% free 16419K/18695K, paused 12ms+7ms, total 91ms
+WAIT_FOR_CONCURRENT_GC blocked 30ms
+WAIT_FOR_CONCURRENT_GC blocked 19ms
+WAIT_FOR_CONCURRENT_GC blocked 30ms
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+WAIT_FOR_CONCURRENT_GC blocked 38ms
+GC_CONCURRENT freed 1671K, 13% free 17018K/19399K, paused 14ms+15ms, total 99ms
+WAIT_FOR_CONCURRENT_GC blocked 4ms
+Cache value 0x53c08c70 deleted, size = 144
+Jit: resizing JitTable from 4096 to 8192
+Timer 0x3->0x3|0x0
+GC_CONCURRENT freed 1486K, 13% free 17567K/19975K, paused 3ms+19ms, total 109ms
+WAIT_FOR_CONCURRENT_GC blocked 41ms
+waitForAlarm result :4
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+nl80211: Received scan results (18 BSSes)
+interfaceLinkStateChanged wlan0, true
+interfaceStatusChanged wlan0, true
+FACTORY_ON= 0
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 1372K, 18% free 14228K/17159K, paused 3ms+12ms, total 102ms
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+GC_CONCURRENT freed 2308K, 16% free 17273K/20487K, paused 13ms+7ms, total 82ms
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+Calling main entry com.android.commands.am.Am
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+Scan requested (ret=0) - scan timeout 30 seconds
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+NOTE: attach of thread 'Binder_3' failed
+GC_CONCURRENT freed 101K, 77% free 591K/2560K, paused 1ms+1ms, total 4ms
+setMinTime 5000
+remove gps (pid 20672), next minTime = 5000
+remove network (pid 20672), next minTime = 86400000
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=1 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=1 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=5 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=5 ns=5000000 
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/c:ad8
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+FACTORY_ON= 0
+remove gps (pid 2600), disabled
+unregisterListener:: Trklfufi 9 drk@,*-c8cf(
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+FACTORY_ON= 0
+FACTORY_ON= 0
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 39K, 14% free 7311K/8451K, paused 2ms+3ms, total 29ms
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed <1K, 14% free 7311K/8451K, paused 2ms+1ms, total 21ms
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+GC_EXPLICIT freed <1K, 14% free 7311K/8451K, paused 2ms+2ms, total 20ms
+error opening trace file: No such file or directory (2)
+stopNavigating
+reportStatus status: 2
+send an intent to notify that the GPS has been enabled or disabled mNavigating = false
+reportStatus status: 4
+updateLightsLocked() : Turn off notification light
+GC_CONCURRENT freed 179K, 13% free 7637K/8711K, paused 15ms+2ms, total 33ms
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+GC_CONCURRENT freed 219K, 13% free 7889K/9031K, paused 11ms+2ms, total 27ms
+published 0 routes
+native_setup
+constructor
+preventAutoPowerOff : 0  bPrevent : true
+setListener
+setDataSourceFD: fd 56
+setDataSource(56, 0, 576460752303423487)
+Client(11) constructor
+Create new client(11) from pid 20783, uid 10042, 
+setDataSource fd=22, offset=0, length=576460752303423487
+st_dev  = 66307
+st_mode = 33277
+st_uid  = 1000
+st_gid  = 1015
+st_size = 4434705
+calculated length = 4434705
+player type = 3
+ create StagefrightPlayer
+setDefault
+constructor
+setDefault
+reset
+cancel player events
+mAudioTrackVector clear
+StagefrightPlayer
+setListener
+initCheck
+AwesomePlayer running on behalf of uid 10042
+AudioOutput(18)
+setDataSource(22, 0, 4434705)
+setDataSource (26, 0, 4434705)
+cancel player events
+mAudioTrackVector clear
+WVMDrmPlugin::onInitialize : 4877
+WVMDrmPlugin::onSetOnInfoListener : add 4877
+OmaLogOn
+PlayReadyLogOn
+WVMDrmPlugin::onTerminate : 4877
+preventAutoPowerOff : resetAutoPowerOffTimer()
+resetAutoPowerOffTimer : 0
+mBitrate = 128000 bits/sec
+couldn't get userdata - Weather
+couldn't get userdata - Authorization 
+couldn't get userdata - SnapShot 
+current audio track index (0) is added to vector
+setDataSource_l: Audio(1), Video(0)
+AwesomePlayer::setDataSource_l():: This is not a DRM content
+ setDataSource
+setVideoSurfaceTexture
+[11] setVideoSurfaceTexture(0x0)
+prepareAsync
+[11] setAudioStreamType(3)
+[11] prepareAsync
+prepareAsync
+onPrepareAsyncEvent
+initAudioDecoder()
+Create() mime = audio/mpeg, isAlpAudio = 1
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+Successfully allocated OMX node 'OMX.SEC.MP3.Decoder'
+OMXCodec::configureCodec 2 + 44100 ++ 
+Successfully allocated and configured OMX node 'OMX.SEC.MP3.Decoder , mIsALPrunning =0'
+notifyListner_l() msg (5-MEDIA_SET_VIDEO_SIZE), ext1 (0), ext2 (0)
+[11] notify (0x42fff320)
+[11] notify (0x42fff320, 5, 0, 0)
+message received msg=5, ext1=0, ext2=0
+New video size 0 x 0
+callback application
+back from callback
+notifyListner_l() msg (1-MEDIA_PREPARED), ext1 (0), ext2 (0)
+[11] notify (0x42fff320)
+[11] notify (0x42fff320, 1, 0, 0)
+message received msg=1, ext1=0, ext2=0
+prepared
+callback application
+back from callback
+mInputFocus is not null.
+Don't send intent. msg.arg1 = 0, msg.arg2 = 0
+start
+start
+[11] setLooping(0)
+setLooping
+setLooping (0)
+[11] setVolume(1.000000, 1.000000)
+setVolume(1.000000, 1.000000)
+[11] setAuxEffectSendLevel(0.000000)
+setAuxEffectSendLevel(0.000000)
+[11] start
+setLooping
+setLooping (0)
+start
+play
+AwesomePlayer::play_l():: This is not a DRM content
+GC_EXPLICIT freed 304K, 14% free 7934K/9223K, paused 2ms+4ms, total 46ms
+ Audioplayer kKeyAudioPCMFormat:1, 2, 0
+ Audioplayer1 (2, 1)
+open(44100, 2, 0x0, 1, 4, 18)
+getOutput() tid 1841 ++
+getOutput() tid 1841 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 1841 ++
+getOutput() tid 1841 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 1841 ++
+getOutput() tid 1841 --
+getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 8
+getOutput() returns output 2
+setVolume
+getOutput() tid 1841 ++
+getOutput() tid 1841 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+start
+startOutput() output 2, stream 3, session 18
+changeRefCount() stream 3, count 1
+getNewDevice() selected device 2
+AudioHardware::setParameters(keyValuePairs="music_stream_active=true")
+getNewDevice() selected device 2
+getNewDevice() selected device 2
+checkOutputForStrategy(0002,0002,3)
+AudioFlinger::PlaybackThread::addTrack_l() start_output_streamtype(1, 3) for 2
+getDuration
+getDuration
+getDuration
+[11] getDuration = 277133
+getDuration: 277133 (msec)
+ AudioFocus  requestAudioFocus() from 20783 focusChangeHint:2
+isPlaying
+[11] isPlaying: 1
+isPlaying: 1
+isPlaying: 1
+id=470(1) createSurf 0x41047054 (1x1),1 flag=0, BudioPrevie
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+UserDep::getRouteInfo(output: audioengine=0, devices=00000002h
+                      incall: onoff=0, devices=00000000h
+                      capture: onoff=0, devices=00000000h, audioSource=0
+                      playback: audio_onoff=1, line_onoff=0)
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Enabling debug mode 0
+Config Database version: 1
+GC_CONCURRENT freed 209K, 12% free 8827K/9991K, paused 1ms+3ms, total 21ms
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+Initialized ALSA PLAYBACK device hifi
+getCurrentPosition
+getCurrentPosition: 174 (msec)
+getCurrentPosition
+getCurrentPosition: 174 (msec)
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+getCurrentPosition
+getCurrentPosition: 360 (msec)
+getCurrentPosition
+getCurrentPosition: 360 (msec)
+getCurrentPosition
+getCurrentPosition: 545 (msec)
+getCurrentPosition
+getCurrentPosition: 545 (msec)
+getCurrentPosition
+getCurrentPosition: 917 (msec)
+getCurrentPosition
+getCurrentPosition: 917 (msec)
+getSKAFEnable : false
+getCurrentPosition
+getCurrentPosition: 1103 (msec)
+getCurrentPosition
+getCurrentPosition: 1103 (msec)
+getCurrentPosition
+getCurrentPosition: 1288 (msec)
+getCurrentPosition
+getCurrentPosition: 1288 (msec)
+getCurrentPosition
+getCurrentPosition: 1474 (msec)
+getCurrentPosition
+getCurrentPosition: 1474 (msec)
+getCurrentPosition
+getCurrentPosition: 1660 (msec)
+getCurrentPosition
+getCurrentPosition: 1660 (msec)
+getCurrentPosition
+getCurrentPosition: 1846 (msec)
+getCurrentPosition
+getCurrentPosition: 1846 (msec)
+getCurrentPosition
+getCurrentPosition: 2031 (msec)
+getCurrentPosition
+getCurrentPosition: 2031 (msec)
+getCurrentPosition
+getCurrentPosition: 2217 (msec)
+getCurrentPosition
+getCurrentPosition: 2217 (msec)
+getCurrentPosition
+getCurrentPosition: 2403 (msec)
+getCurrentPosition
+getCurrentPosition: 2403 (msec)
+getCurrentPosition
+getCurrentPosition: 2589 (msec)
+getCurrentPosition
+getCurrentPosition: 2589 (msec)
+getCurrentPosition
+getCurrentPosition: 2960 (msec)
+getCurrentPosition
+getCurrentPosition: 2960 (msec)
+getCurrentPosition
+getCurrentPosition: 3146 (msec)
+getCurrentPosition
+getCurrentPosition: 3146 (msec)
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+getCurrentPosition
+getCurrentPosition: 3332 (msec)
+getCurrentPosition
+getCurrentPosition: 3332 (msec)
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+release
+setListener
+disconnect
+disconnect(11) from pid 20783
+reset
+reset
+Shutting down VM
+cancel player events
+mAudioTrackVector clear
+stop
+stopOutput() output 2, stream 3, session 18
+changeRefCount() stream 3, count 0
+AudioHardware::setParameters(keyValuePairs="music_stream_active=false")
+getNewDevice() selected device 0
+checkOutputForStrategy(0002,0002,3)
++++ close
+releaseOutput() 2
+--- close
+[OMX.SEC.MP3.Decoder] stop() sendCommand(0x18, OMX_CommandStateSet, OMX_StateIdle)
+[OMX.SEC.MP3.Decoder] stopped in state 1
+RESET mIsALPrunning
+~StagefrightPlayer
+reset
+reset
+cancel player events
+mAudioTrackVector clear
+reset
+cancel player events
+mAudioTrackVector clear
+~AwesomePlayer()
+destructor
+Client(11) destructor pid = 20783
++++ close
+--- close
+disconnect(11) from pid 20783
+disconnect
+ AudioFocus  abandonAudioFocus() from 20783
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+id=471(69) createSurf 0x412420ac (1x1),1 flag=0, nms
+GC_CONCURRENT freed 102K, 77% free 594K/2560K, paused 0ms+0ms, total 3ms
+mInputFocus is not null.
+mInputFocus is not null.
+NOTE: attach of thread 'Binder_3' failed
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+AudioFlinger::MixerThread::prepareTracks_l stop_output_streamtype(1, 3) for 2
+Pub mms_temp_file: com.android.mms.TempFileProvider
+Pub com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+Pub com.android.cm.mms: com.android.mms.templates.TemplatesProvider
+mInputFocus is not null.
+mInputFocus is not null.
+The first listener is added
+WVMDrmPlugin::onInitialize : 3249
+WVMDrmPlugin::onSetOnInfoListener : add 3249
+OmaLogOn
+PlayReadyLogOn
+mnc/mcc: 
+tag: bool value: enabledMMS - true
+tag: int value: maxMessageSize - 307200
+tag: int value: maxImageHeight - 480
+tag: int value: maxImageWidth - 640
+tag: int value: defaultSMSMessagesPerThread - 500
+tag: int value: defaultMMSMessagesPerThread - 50
+tag: int value: minMessageCountPerThread - 10
+tag: int value: maxMessageCountPerThread - 5000
+tag: string value: uaProfUrl - http://www.google.com/oha/rdf/ua-profile-kila.xml
+tag: int value: recipientLimit - -1
+tag: bool value: enableMultipartSMS - true
+tag: bool value: enableSplitSMS - false
+tag: int value: smsToMmsTextThreshold - -1
+tag: bool value: enableSlideDuration - true
+tag: int value: maxMessageTextSize - -1
+tag: bool value: enableSprintVVM - false
+GC_CONCURRENT freed 168K, 13% free 7603K/8711K, paused 3ms+2ms, total 20ms
+Get MotionRecognitionManager
+ ssp status : false
+GC_CONCURRENT freed 245K, 13% free 7890K/9031K, paused 12ms+3ms, total 53ms
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+--------- beginning of /dev/log/main
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93496347, downTime=93496347, deviceId=0, source=0x1002 }
+Dropped event because input dispatch is disabled.
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+--------- beginning of /dev/log/system
+Screen__On : userActivity : input  uid=1000 pid=2189
+userActivity : mUserState 0x7
+reactivateScreenLocksLocked mProxIgnoredBecauseScreenTurnedOff=true
+enableLightSensorLocked enable=true mLightSensorEnabled=false mAutoBrightessEnabled=true mWaitingForFirstLightSensor=false
+lightSensorChangedLocked value=100 immediate=true
+dropping lightSensorChangedLocked because screen is off
+Input event injection from pid 20904 failed.
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93496347, downTime=93496347, deviceId=0, source=0x1002 }
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=3 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=3 ns=200000000 
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 3  name= CM3663 Light Sensor delay= 200000 Trklfufi 9 cwv5budiwrd5kfimfi5HwofiVbubgfiKfimrcf$*8@,*-:8(c(
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+akm_enable_sensor: Accel is enabled. (orien = 0)
+enable_accelerometer, mEnabled = 0, enable = 1
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=0 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=200000000  
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Trklfufi 9 cwv5budiwrd5kfimfi5HwofiVbubgfiKfimrcf$*:@,*-8dcc(
+set_light_button on=1
+Dropped event because input dispatch is disabled.
+onScreenTurnedOn, seq = 40
+notifyScreenOnLocked
+mSetIgnorePWR
+sensor was already activated for this ident
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=200000000  
+akm_set_delay: accel same delay = 200000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 200000 Trklfufi 9 budiwrd5mrfo5OrudwoWirfulblrwuTrklfufi$KfukwiFmfulTrklfufiRvht@,*8c/d)8
+sendNotificationLocked on=true
+Ulight 0x0->0x4|0x0
+mNotificationTask : on
+enable register mbSContext: false
+WindowOrientationListener enabled
+Shutting down VM
+handleNotifyScreenOn
+*** acquire_dvfs_lock : lockType : 1  freq : 1200000 
+Input event injection from pid 20904 failed.
+No lock screen!
+Ulight 0x7->0x7|0x1
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1200000  uid : 1000  pid : 2189  tag : AMOLED_Animation
+GC_CONCURRENT freed 105K, 79% free 551K/2560K, paused 0ms+0ms, total 5ms
+turn off LED
+AudioHardware::setParameters(keyValuePairs="screen_state=on")
+ACTION_SCREEN_ON
+updateLightsLocked() : Turn off notification light
+TvoutService Action : android.intent.action.SCREEN_ON
+*** release_dvfs_lock : lockType : 1 
+Light Animator Finished currentValue=110
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+onScreenOnIntent
+Recieved intent android.intent.action.SCREEN_ON
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+Screen about to return, flinger = 0x412ffd78
+virtual void android::SecTVOutService::setSuspendMode(uint32_t) TV suspend mode = 0
+virtual void android::SecTVOutService::setHdmiStatus(uint32_t) HDMI cable status = 1
+bool android::SecHdmi::connect()::m_flagHWConnected() fail 
+virtual void android::SecTVOutService::setHdmiStatus(uint32_t)::mSecHdmi.connect() fail
+GC_CONCURRENT freed 1258K, 19% free 13927K/17159K, paused 15ms+8ms, total 148ms
+lightSensorChangedLocked value=100 immediate=true
+lcdValue 110
+buttonValue 0
+keyboardValue 0
+lightSensorChangedLocked : mKeyboardLight : 0
+mUnSetIgnorePWR
+set_light_button on=0
+Timer 0x7->0x3|0x0
+Ulight 0x7->0x3|0x0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+Shutting down VM
+GC_CONCURRENT freed 100K, 77% free 591K/2560K, paused 0ms+0ms, total 3ms
+id=477(70) createSurf 0x419b7dd4 (1x1),1 flag=0, tettings
+PhoneWindowManager: focusChangedLw
+NOTE: attach of thread 'Binder_3' failed
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+ ssp status : false
+GC_CONCURRENT freed 196K, 12% free 8194K/9287K, paused 13ms+18ms, total 81ms
+Cursor finalized without prior close()
+Uncaught exception thrown by finalizer
+java.lang.IllegalStateException: Binder has been finalized!
+	at android.os.BinderProxy.transact(Native Method)
+	at android.database.BulkCursorProxy.close(BulkCursorNative.java)
+	at android.database.BulkCursorToCursorAdaptor.close(BulkCursorToCursorAdaptor.java)
+	at android.database.CursorWrapper.close(CursorWrapper.java)
+	at android.content.ContentResolver$CursorWrapperInner.close(ContentResolver.java)
+	at android.content.ContentQueryMap.close(ContentQueryMap.java)
+	at android.content.ContentQueryMap.finalize(ContentQueryMap.java)
+	at java.lang.Daemons$FinalizerDaemon.doFinalize(Daemons.java:186)
+	at java.lang.Daemons$FinalizerDaemon.run(Daemons.java:169)
+	at java.lang.Thread.run(Thread.java:856)
+Get MotionRecognitionManager
+SwitchPreferenceScreen should get fragment property. Fragment property does not exsit in SwitchPreferenceScreen
+mInputFocus is not null.
+Removed 2131428320
+Removed 2131428335
+id=478(3) createSurf 0x419b767c (1x1),1 flag=0, Tettings$Lo
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+Removed 2131428320
+Removed 2131428335
+*** release_dvfs_lock : lockType : 1 
+id=476 Removed Mauncher idx=1 MapSz=5
+id=476 Removed Mauncher idx=-2 MapSz=5
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+id=477 Removed tettings idx=3 MapSz=4
+id=477 Removed tettings idx=-2 MapSz=4
+Skipping unknown process pid 20931
+!@Sync 3116
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93504048, downTime=93504048, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93504048, downTime=93504048, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 0ms+0ms, total 5ms
+NOTE: attach of thread 'Binder_2' failed
+handleEnable
+set_capabilities_callback: 6
+Timer 0x3->0x3|0x0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+id=479(71) createSurf 0x419b84dc (1x1),1 flag=0, naps
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 598K/2560K, paused 1ms+1ms, total 3ms
+PhoneWindowManager: focusChangedLw
+NOTE: attach of thread 'Binder_3' failed
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+ ssp status : false
+CHECK_ERROR:false STRICT_MODE:false FAIL_ON_GL_ERROR:false
+No current context - attempting to create off-screen context
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+GC_FOR_ALLOC freed 1492K, 19% free 16706K/20487K, paused 47ms, total 48ms
+Grow heap (frag case) to 17.440MB for 262160-byte allocation
+GC_FOR_ALLOC freed <1K, 19% free 16961K/20807K, paused 48ms, total 48ms
+mInputFocus is not null.
+mInputFocus is not null.
+GC_FOR_ALLOC freed 11K, 18% free 17152K/20807K, paused 41ms, total 41ms
+Grow heap (frag case) to 17.875MB for 262160-byte allocation
+GC_FOR_ALLOC freed <1K, 18% free 17408K/21127K, paused 37ms, total 37ms
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=66667000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 66667 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,)(f*a((
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66667000 
+akm_set_delay: accel same delay = 66667000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=1 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=1 ns=200000000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=5 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=5 ns=200000000 
+info.selectDelay() ns=66666000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=20000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=5000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+Scan requested (ret=0) - scan timeout 30 seconds
+registerListener :: handle = 1601335158  name= Rotation Vector Sensor delay= 66666 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+FACTORY_ON= 0
+setMinTime 0
+startNavigating
+getSKAFEnable : false
+request gps (pid 20672) 0 0
+request network (pid 20672) 0 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+reportStatus status: 3
+reportStatus status: 1
+send an intent to notify that the GPS has been enabled or disabled mNavigating = true
+id=478 Removed Tettings$Lo idx=2 MapSz=4
+isStatusBarNotificationAllowed: packageName = com.android.systemui
+Noti Alert - mSystemReady:true, AlertEnabled:true
+addNotification score=10
+mInputFocus is not null.
+id=478 Removed Tettings$Lo idx=-2 MapSz=4
+mInputFocus is not null.
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+mInputFocus is not null.
+Cache value 0x539c48d0 deleted, size = 144
+com.android.internal.widget.SizeAdaptiveLayout@41d3d1d8child view android.widget.FrameLayout@41c31d60 measured out of bounds at 95px clamped to 96px
+id=480(4) createSurf 0x40112f54 (1x1),1 flag=0, NapsActivit
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+setMinTime 0
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66666000 
+akm_set_delay: accel same delay = 20000000 
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 20000 Trklfufi 9 drk@,*-c8cf(
+request gps (pid 2600) 5000 0
+FACTORY_ON= 0
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+GC_FOR_ALLOC freed 506K, 18% free 17383K/21127K, paused 41ms, total 41ms
+Grow heap (frag case) to 18.101MB for 262160-byte allocation
+GC_FOR_ALLOC freed 13K, 18% free 17626K/21447K, paused 38ms, total 38ms
+GC_FOR_ALLOC freed 334K, 19% free 17522K/21447K, paused 35ms, total 35ms
+Grow heap (frag case) to 18.486MB for 524304-byte allocation
+GC_FOR_ALLOC freed 1K, 19% free 18032K/22023K, paused 36ms, total 36ms
+GC_FOR_ALLOC freed <1K, 19% free 18034K/22023K, paused 35ms, total 35ms
+Grow heap (frag case) to 18.987MB for 524304-byte allocation
+GC_FOR_ALLOC freed <1K, 18% free 18546K/22599K, paused 37ms, total 37ms
+this.sizeChangeListener is empty
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+id=480 Removed NapsActivit idx=2 MapSz=4
+id=481(5) createSurf 0x4106fc8c (480x800),1 flag=400, NapsActivit
+id=480 Removed NapsActivit idx=-2 MapSz=5
+id=479 Removed naps idx=4 MapSz=4
+id=479 Removed naps idx=-2 MapSz=4
+GC_CONCURRENT freed 1419K, 16% free 19131K/22599K, paused 13ms+23ms, total 120ms
+WAIT_FOR_CONCURRENT_GC blocked 105ms
+[unregisterDoubleTapMotionListener]
+  .unregisterListener : / listener count = 0->0, ubvf 9budiwrd5ordgfl5BakTrklMrfo$,@,*/.a:a(
+GC_FOR_ALLOC freed 3745K, 29% free 16238K/22599K, paused 39ms, total 40ms
+GC_CONCURRENT freed 1398K, 26% free 16856K/22599K, paused 13ms+26ms, total 83ms
+WAIT_FOR_CONCURRENT_GC blocked 62ms
+Cache value 0x539fbfb8 deleted, size = 144
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93511655, downTime=93511655, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93511655, downTime=93511655, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+NOTE: attach of thread 'Binder_3' failed
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 0ms+1ms, total 3ms
+GC_CONCURRENT freed 1919K, 25% free 16984K/22599K, paused 15ms+6ms, total 100ms
+WAIT_FOR_CONCURRENT_GC blocked 36ms
+WAIT_FOR_CONCURRENT_GC blocked 37ms
+WAIT_FOR_CONCURRENT_GC blocked 33ms
+WAIT_FOR_CONCURRENT_GC blocked 26ms
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+WAIT_FOR_CONCURRENT_GC blocked 37ms
+WAIT_FOR_CONCURRENT_GC blocked 41ms
+WAIT_FOR_CONCURRENT_GC blocked 44ms
+Jit: resizing JitTable from 8192 to 16384
+GC_CONCURRENT freed 1374K, 22% free 17657K/22599K, paused 18ms+6ms, total 77ms
+WAIT_FOR_CONCURRENT_GC blocked 44ms
+WAIT_FOR_CONCURRENT_GC blocked 46ms
+WAIT_FOR_CONCURRENT_GC blocked 36ms
+WAIT_FOR_CONCURRENT_GC blocked 49ms
+Timer 0x3->0x3|0x0
+GC_CONCURRENT freed 1915K, 22% free 17790K/22599K, paused 14ms+5ms, total 86ms
+WAIT_FOR_CONCURRENT_GC blocked 36ms
+WAIT_FOR_CONCURRENT_GC blocked 35ms
+WAIT_FOR_CONCURRENT_GC blocked 36ms
+WAIT_FOR_CONCURRENT_GC blocked 29ms
+WAIT_FOR_CONCURRENT_GC blocked 31ms
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+waitForAlarm result :4
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+GC_CONCURRENT freed 486K, 16% free 9096K/10823K, paused 13ms+4ms, total 87ms
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+GC_CONCURRENT freed 1600K, 20% free 18238K/22599K, paused 12ms+6ms, total 102ms
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+WAIT_FOR_CONCURRENT_GC blocked 20ms
+nl80211: Received scan results (13 BSSes)
+interfaceLinkStateChanged wlan0, true
+interfaceStatusChanged wlan0, true
+FACTORY_ON= 0
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+GC_CONCURRENT freed 1794K, 19% free 18491K/22599K, paused 12ms+4ms, total 95ms
+WAIT_FOR_CONCURRENT_GC blocked 40ms
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+WAIT_FOR_CONCURRENT_GC blocked 41ms
+WAIT_FOR_CONCURRENT_GC blocked 39ms
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+Scan requested (ret=0) - scan timeout 30 seconds
+FACTORY_ON= 0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+Shutting down VM
+NOTE: attach of thread 'Binder_3' failed
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+GC_CONCURRENT freed 103K, 77% free 592K/2560K, paused 0ms+0ms, total 3ms
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 1462K, 19% free 18309K/22599K, paused 5ms+12ms, total 127ms
+update start
+level:30 scale:100 status:2 health:2 present:true voltage: 3521 temperature: 380 technology: Li-ion AC powered:false USB powered:true icon:17303239 invalid charger:0
+FACTORY_ON= 0
+In MTPAPP onReceive:android.intent.action.BATTERY_CHANGED
+battPlugged Type : 2
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+id=482(72) createSurf 0x40efeeb4 (1x1),1 flag=0, nms
+GC_CONCURRENT freed 102K, 77% free 594K/2560K, paused 1ms+0ms, total 4ms
+NOTE: attach of thread 'Binder_3' failed
+setMinTime 5000
+remove gps (pid 20672), next minTime = 5000
+remove network (pid 20672), next minTime = 86400000
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*/*d)d(
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=1 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=1 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=5 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=5 ns=5000000 
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,)(f*a((
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+unregisterListener:: Trklfufi 9 drk@,*-c8cf(
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+FACTORY_ON= 0
+remove gps (pid 2600), disabled
+FACTORY_ON= 0
+stopNavigating
+reportStatus status: 2
+send an intent to notify that the GPS has been enabled or disabled mNavigating = false
+FACTORY_ON= 0
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+reportStatus status: 4
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+updateLightsLocked() : Turn off notification light
+ ssp status : false
+[1] [initialize] savedInstanceState = null intent = Intent { act=android.intent.action.SENDTO dat=sms:xxxxxxxxxxxx flg=0x10000000 cmp=com.android.mms/.ui.ComposeMessageActivity (has extras) } mConversation = [101010101010] (tid 11)
+called with non-empty working message
+mInputFocus is not null.
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+mInputFocus is not null.
+mInputFocus is not null.
+waitForAlarm result :4
+GC_CONCURRENT freed 173K, 12% free 8688K/9799K, paused 2ms+20ms, total 64ms
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+GC_CONCURRENT freed 734K, 17% free 9452K/11335K, paused 12ms+2ms, total 112ms
+Skipping unknown process pid 21015
+Skipping unknown process pid 21017
+Could not find a dictionary pack
+Failed to find provider info for com.android.inputmethod.latin.dictionarypack
+id=483(3) createSurf 0x419b767c (480x800),1 flag=0, DomposeMess
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+--------- beginning of /dev/log/main
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93734152, downTime=93734152, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Cache value 0x56596820 deleted, size = 176
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=0.0, y[0]=0.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93734152, downTime=93734152, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 551K/2560K, paused 0ms+1ms, total 5ms
+NOTE: attach of thread 'Binder_2' failed
+getGsmLevel=4
+getLevel=4 (SignalStrength: 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmLevel=4
+getLevel=4 (SignalStrength: 17 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+getGsmDbm=-79
+getDbm=-79
+getGsmAsuLevel=17
+getAsuLevel=17
+--------- beginning of /dev/log/system
+FACTORY_ON= 0
+Timer 0x3->0x3|0x0
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+GC_CONCURRENT freed 100K, 77% free 591K/2560K, paused 0ms+0ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+id=508(77) createSurf 0x412af0c4 (1x1),1 flag=0, tettings
+rotationForOrientationLw(orient=-1, last=0); user=0  mLidState=-1 mDockMode=0 mHdmiPlugged=false mAccelerometerDefault=false sensorRotation=-1
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_CONCURRENT freed 169K, 13% free 7647K/8711K, paused 12ms+1ms, total 27ms
+WAIT_FOR_CONCURRENT_GC blocked 6ms
+Pub com.android.settings.reverb.params: com.android.settings.autohaptic.ReverbContentProvider
+Pub com.android.settings.personalvibration.PersonalVibrationProvider: com.android.settings.personalvibration.PersonalVibrationProvider
+id=506 Removed Mauncher idx=2 MapSz=4
+id=506 Removed Mauncher idx=-2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+Get MotionRecognitionManager
+ ssp status : false
+Get MotionRecognitionManager
+SwitchPreferenceScreen should get fragment property. Fragment property does not exsit in SwitchPreferenceScreen
+GC_CONCURRENT freed 171K, 13% free 7922K/9031K, paused 1ms+12ms, total 28ms
+mInputFocus is not null.
+Removed 2131428320
+Removed 2131428335
+id=509(1) createSurf 0x419b767c (1x1),1 flag=0, Tettings$Lo
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Enabling debug mode 0
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+Removed 2131428320
+Removed 2131428335
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+JIT code cache reset in 4 ms (1048540 bytes 8/0)
+GC_CONCURRENT freed 1400K, 19% free 13957K/17159K, paused 3ms+13ms, total 87ms
+id=508 Removed tettings idx=3 MapSz=4
+id=508 Removed tettings idx=-2 MapSz=4
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93741858, downTime=93741858, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=400.0, y[0]=300.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93741858, downTime=93741858, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 0ms+1ms, total 5ms
+NOTE: attach of thread 'Binder_2' failed
+handleEnable
+set_capabilities_callback: 6
+PANU : true
+LocalBluetoothProfileManager construction complete
+Timer 0x3->0x3|0x0
+!@Sync 3124
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+id=510(78) createSurf 0x412f2174 (1x1),1 flag=0, naps
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 598K/2560K, paused 1ms+1ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+GC_CONCURRENT freed 165K, 13% free 7651K/8711K, paused 13ms+1ms, total 38ms
+WAIT_FOR_CONCURRENT_GC blocked 12ms
+Pub com.google.android.maps.NavigationAvailabilityProvider: com.google.android.apps.gmm.navigation.util.NavigationAvailabilityProvider
+No current context - attempting to create off-screen context
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+mInputFocus is not null.
+mInputFocus is not null.
+GC_CONCURRENT freed 338K, 14% free 7887K/9095K, paused 11ms+12ms, total 40ms
+id=509 Removed Tettings$Lo idx=2 MapSz=4
+id=509 Removed Tettings$Lo idx=-2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+GC_CONCURRENT freed 357K, 14% free 8126K/9351K, paused 2ms+13ms, total 48ms
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+WAIT_FOR_CONCURRENT_GC blocked 2ms
+Sucessfully bound to com.google.android.tts
+Loading project file (apk mode is true) ...
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/textnorm_swift_en.cfg" ...
+StrictMode policy violation; ~duration=147 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.googlenav.location.e.b(SourceFile:242)
+	at com.google.googlenav.location.e.<init>(SourceFile:223)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:87)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=133 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=287 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.database.sqlite.SQLiteConnection.applyBlockGuardPolicy(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteConnection.executeForCursorWindow(SQLiteConnection.java)
+	at android.database.sqlite.SQLiteSession.executeForCursorWindow(SQLiteSession.java)
+	at android.database.sqlite.SQLiteQuery.fillWindow(SQLiteQuery.java)
+	at android.database.sqlite.SQLiteCursor.fillWindow(SQLiteCursor.java)
+	at android.database.sqlite.SQLiteCursor.getCount(SQLiteCursor.java)
+	at android.database.CursorToBulkCursorAdaptor.getBulkCursorDescriptor(CursorToBulkCursorAdaptor.java)
+	at android.content.ContentProviderNative.onTransact(ContentProviderNative.java)
+	at android.os.Binder.execTransact(Binder.java)
+	at dalvik.system.NativeStart.run(Native Method)
+# via Binder call with stack:
+android.os.StrictMode$LogStackTrace
+	at android.os.StrictMode.readAndHandleBinderCallViolations(StrictMode.java)
+	at android.os.Parcel.readExceptionCode(Parcel.java)
+	at android.database.DatabaseUtils.readExceptionFromParcel(DatabaseUtils.java)
+	at android.content.ContentProviderProxy.query(ContentProviderNative.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at android.content.ContentResolver.query(ContentResolver.java)
+	at com.google.googlenav.location.m.b(SourceFile:67)
+	at com.google.googlenav.location.m.c(SourceFile:100)
+	at com.google.android.apps.gmm.location.a.m.b(SourceFile:204)
+	at com.google.android.apps.gmm.location.a.m.<init>(SourceFile:185)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:104)
+	at com.google.android.apps.gmm.location.b.a(SourceFile:48)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:101)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+StrictMode policy violation; ~duration=41 ms: android.os.StrictMode$StrictModeDiskReadViolation: policy=31 violation=2
+	at android.os.StrictMode$AndroidBlockGuardPolicy.onReadFromDisk(StrictMode.java)
+	at android.app.SharedPreferencesImpl.awaitLoadedLocked(SharedPreferencesImpl.java)
+	at android.app.SharedPreferencesImpl.getString(SharedPreferencesImpl.java)
+	at com.google.android.apps.gmm.util.ad.a(SourceFile:120)
+	at com.google.android.apps.gmm.navigation.alert.P.c(SourceFile:254)
+	at com.google.android.apps.gmm.navigation.alert.P.<init>(SourceFile:244)
+	at com.google.android.apps.gmm.navigation.alert.c.<init>(SourceFile:367)
+	at com.google.android.apps.gmm.base.app.GoogleMapsApplication.onCreate(SourceFile:115)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java)
+	at android.app.ActivityThread.access$1400(ActivityThread.java)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java)
+	at android.os.Handler.dispatchMessage(Handler.java)
+	at android.os.Looper.loop(Looper.java)
+	at android.app.ActivityThread.main(ActivityThread.java)
+	at java.lang.reflect.Method.invokeNative(Native Method)
+	at java.lang.reflect.Method.invoke(Method.java:511)
+	at com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run(ZygoteInit.java)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java)
+	at dalvik.system.NativeStart.main(Native Method)
+GC_CONCURRENT freed 346K, 14% free 8265K/9543K, paused 12ms+2ms, total 41ms
+[android_project_file.cc:32] Loading "eng-gbr/en-GB.blex" ...
+Get MotionRecognitionManager
+ ssp status : false
+[android_project_file.cc:32] Loading "eng-gbr/en_number_names.far" ...
+GC_CONCURRENT freed 231K, 12% free 8618K/9735K, paused 1ms+2ms, total 30ms
+WAIT_FOR_CONCURRENT_GC blocked 1ms
+[grm-manager.h:119] Loading FST archive from "eng-gbr/en_number_names.far" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+CHECK_ERROR:false STRICT_MODE:false FAIL_ON_GL_ERROR:false
+Vendor ARM
+Version OpenGL ES 2.0
+maxTextureSize 4096
+maxCombinedTextureImageUnits 8
+maxVertexTextureImageUnits 0
+maxSupportedLineWidth 100
+stencilBits 8
+stencilValueMax 128
+GL_EXTENSIONS = [GL_EXT_DEBUG_MARKER, GL_OES_TEXTURE_NPOT, GL_OES_COMPRESSED_ETC1_RGB8_TEXTURE, GL_OES_STANDARD_DERIVATIVES, GL_OES_EGL_IMAGE, GL_OES_DEPTH24, GL_ARM_RGBA8, GL_ARM_MALI_SHADER_BINARY, GL_OES_DEPTH_TEXTURE, GL_OES_PACKED_DEPTH_STENCIL, GL_EXT_TEXTURE_FORMAT_BGRA8888, GL_EXT_BLEND_MINMAX, GL_OES_EGL_IMAGE_EXTERNAL, GL_OES_EGL_SYNC, GL_OES_RGB8_RGBA8, GL_EXT_MULTISAMPLED_RENDER_TO_TEXTURE, GL_EXT_DISCARD_FRAMEBUFFER]
+GC_FOR_ALLOC freed 118K, 11% free 8808K/9863K, paused 18ms, total 18ms
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[grm-manager.h:148] Loaded 15 grammars.
+[android_project_file.cc:32] Loading "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+[decoder_compat_android-inl.h:31] fst_g2p: Loading FST from "eng-gbr/g2p_m3_syls0_stress0_en-GB.fst" ...
+[memory_file_resource_impl-inl.h:174] Attempt to read over buffer boundary, truncating read
+[decoder_impl.cc:64] g2p FST: 30 graphemes, 46 phonemes (with special symbols)
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+GC_FOR_ALLOC freed 9K, 11% free 9131K/10183K, paused 18ms, total 18ms
+[embedded_hmm_synthesizer.cc:27] Embedded HMM synthesizer initialized.
+[android_project_file.cc:32] Loading "eng-gbr/phonology_en-GB.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/compile_hmm_16000_0_ph_lsp_swop_ap_msd.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/engine_hmm_16000_ap-embedded_mlsp.cfg" ...
+[android_project_file.cc:32] Loading "eng-gbr/rjs_16000_0_hmm_ph_hmm_en-GB_swift_c30300932_d1331306185_OTA.2.1.voice" ...
+GC_CONCURRENT freed 199K, 11% free 9600K/10695K, paused 2ms+3ms, total 28ms
+WAIT_FOR_CONCURRENT_GC blocked 9ms
+GC_FOR_ALLOC freed 8K, 11% free 9922K/11143K, paused 16ms, total 16ms
+WAIT_FOR_CONCURRENT_GC blocked 26ms
+WAIT_FOR_CONCURRENT_GC blocked 23ms
+WAIT_FOR_CONCURRENT_GC blocked 24ms
+WAIT_FOR_CONCURRENT_GC blocked 25ms
+GC_FOR_ALLOC freed 25K, 11% free 10398K/11591K, paused 17ms, total 17ms
+GC_FOR_ALLOC freed 55K, 10% free 11191K/12359K, paused 17ms, total 17ms
+GC_CONCURRENT freed 151K, 8% free 12337K/13383K, paused 2ms+3ms, total 21ms
+WAIT_FOR_CONCURRENT_GC blocked 17ms
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+thread start
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+info.selectDelay() ns=66667000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 66667 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/cde(8
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-.8,a(
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66667000 
+akm_set_delay: accel same delay = 66667000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=1 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=1 ns=200000000 
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activate  (enable 1, disable 0) = 1
+activating sensor enable handle=5 
+activating sensor enable, Done!
+SensorDevice::activating sensor handle=5 ns=200000000 
+info.selectDelay() ns=66666000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=20000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+info.selectDelay() ns=5000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 1601335158  name= Rotation Vector Sensor delay= 66666 Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-.8,a(
+GC_EXPLICIT freed 989K, 22% free 13409K/17159K, paused 5ms+7ms, total 70ms
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+setMinTime 0
+startNavigating
+getSKAFEnable : false
+reportStatus status: 3
+reportStatus status: 1
+startScan: false pid=2600, uid=10012
+request gps (pid 21479) 0 0
+FACTORY_ON= 0
+send an intent to notify that the GPS has been enabled or disabled mNavigating = true
+isStatusBarNotificationAllowed: packageName = com.android.systemui
+request network (pid 21479) 0 0
+Noti Alert - mSystemReady:true, AlertEnabled:true
+Scan requested (ret=0) - scan timeout 30 seconds
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+addNotification score=10
+FACTORY_ON= 0
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+WAIT_FOR_CONCURRENT_GC blocked 0ms
+GC_EXPLICIT freed 220K, 17% free 9446K/11335K, paused 1ms+3ms, total 33ms
+*** release_dvfs_lock : lockType : 1 
+Cache value 0x53c0de38 deleted, size = 144
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+FACTORY_ON= 0
+com.android.internal.widget.SizeAdaptiveLayout@41918500child view android.widget.FrameLayout@41906908 measured out of bounds at 95px clamped to 96px
+startScan: false pid=2524, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+GC_CONCURRENT freed 863K, 12% free 13161K/14919K, paused 2ms+3ms, total 32ms
+WAIT_FOR_CONCURRENT_GC blocked 15ms
+WAIT_FOR_CONCURRENT_GC blocked 16ms
+WAIT_FOR_CONCURRENT_GC blocked 22ms
+mInputFocus is not null.
+Connected to TTS Service
+id=511(1) createSurf 0x40112f54 (1x1),1 flag=0, NapsActivit
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Enabling debug mode 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+setMinTime 0
+info.rates.add, set DEFAULT_EVENTS_PERIOD
+SensorDevice::activating sensor handle=0 ns=66666000 
+akm_set_delay: accel same delay = 20000000 
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+registerListener :: handle = 0  name= K3DH Acceleration Sensor delay= 20000 Trklfufi 9 drk@,*-c8cf(
+request gps (pid 2600) 5000 0
+FACTORY_ON= 0
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+this.sizeChangeListener is empty
+GC_FOR_ALLOC freed 811K, 12% free 14164K/16007K, paused 39ms, total 39ms
+id=511 Removed NapsActivit idx=2 MapSz=4
+id=512(2) createSurf 0x412af0c4 (480x800),1 flag=400, NapsActivit
+id=511 Removed NapsActivit idx=-2 MapSz=5
+id=510 Removed naps idx=3 MapSz=4
+id=510 Removed naps idx=-2 MapSz=4
+GC_CONCURRENT freed 777K, 10% free 15419K/17095K, paused 12ms+13ms, total 76ms
+WAIT_FOR_CONCURRENT_GC blocked 7ms
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.input.Input
+InjectPointerEvent: MotionEvent { action=ACTION_DOWN, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93749512, downTime=93749512, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+Delivering touch to current input target: action: 0x0
+InjectPointerEvent: MotionEvent { action=ACTION_UP, id[0]=0, x[0]=445.0, y[0]=760.0, toolType[0]=TOOL_TYPE_UNKNOWN, buttonState=0, metaState=0, flags=0x0, edgeFlags=0x0, pointerCount=1, historySize=0, eventTime=93749512, downTime=93749512, deviceId=0, source=0x1002 }
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Delivering touch to current input target: action: 0x1
+Shutting down VM
+NOTE: attach of thread 'Binder_3' failed
+GC_CONCURRENT freed 105K, 79% free 552K/2560K, paused 1ms+0ms, total 4ms
+GC_CONCURRENT freed 1626K, 14% free 15853K/18375K, paused 13ms+17ms, total 82ms
+Timer 0x3->0x3|0x0
+GC_CONCURRENT freed 1640K, 14% free 16286K/18823K, paused 12ms+6ms, total 73ms
+WAIT_FOR_CONCURRENT_GC blocked 18ms
+Jit: resizing JitTable from 4096 to 8192
+GC_FOR_ALLOC freed 1303K, 14% free 16562K/19207K, paused 47ms, total 47ms
+waitForAlarm result :4
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+nl80211: Received scan results (16 BSSes)
+interfaceLinkStateChanged wlan0, true
+interfaceStatusChanged wlan0, true
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+FACTORY_ON= 0
+getGsmLevel=4
+getLevel=4 (SignalStrength: 16 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+getGsmLevel=4
+getLevel=4 (SignalStrength: 16 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 gsm|lte 4)
+FACTORY_ON= 0
+getGsmDbm=-81
+getDbm=-81
+getGsmAsuLevel=16
+getAsuLevel=16
+getGsmDbm=-81
+getDbm=-81
+getGsmAsuLevel=16
+getAsuLevel=16
+getGsmDbm=-81
+getDbm=-81
+getGsmAsuLevel=16
+getAsuLevel=16
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Scan requested (ret=0) - scan timeout 30 seconds
+FACTORY_ON= 0
+Shutting down VM
+NOTE: attach of thread 'Binder_3' failed
+GC_CONCURRENT freed 102K, 77% free 594K/2560K, paused 1ms+1ms, total 4ms
+id=513(79) createSurf 0x41047054 (1x1),1 flag=0, nms
+setMinTime 5000
+remove gps (pid 21479), next minTime = 5000
+remove network (pid 21479), next minTime = 86400000
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5twcblrwu5a5s@,*-.8,a(
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=1 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=1 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+FACTORY_ON= 0
+SensorDevice::activate  (enable 1, disable 0) = 0
+activating sensor disable handle=5 
+activating sensor disable, Done!
+SensorDevice::activating sensor handle=5 ns=5000000 
+unregisterListener:: Trklfufi 9 cwv5gwwgtf5budiwrd5bhhk5gvv5effdabcs5n@,*/cde(8
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=20000000  
+akm_set_delay: accel same delay = 20000000 
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=20000000 
+akm_set_delay: accel same delay = 20000000 
+unregisterListener:: Trklfufi 9 drk@,*-c8cf(
+Remain listener = Sending .. normal delay 200ms
+sendDelay --- 200000000
+info.selectDelay() ns=200000000  
+SensorDevice::setDelay, Return(true 1, false 0) =  1
+remove gps (pid 2600), disabled
+JNI - sendDelay
+Set normal delay = true
+SensorDevice::activating sensor handle=0 ns=200000000 
+akm_set_delay: accel same delay = 200000000 
+FACTORY_ON= 0
+FACTORY_ON= 0
+stopNavigating
+reportStatus status: 2
+send an intent to notify that the GPS has been enabled or disabled mNavigating = false
+reportStatus status: 4
+updateLightsLocked() : Turn off notification light
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+error opening trace file: No such file or directory (2)
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+FACTORY_ON= 0
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+Pub mms_temp_file: com.android.mms.TempFileProvider
+Pub com.android.mms.SuggestionsProvider: com.android.mms.SuggestionsProvider
+Pub com.android.cm.mms: com.android.mms.templates.TemplatesProvider
+The first listener is added
+mInputFocus is not null.
+mInputFocus is not null.
+WVMDrmPlugin::onInitialize : 242
+WVMDrmPlugin::onSetOnInfoListener : add 242
+OmaLogOn
+PlayReadyLogOn
+mnc/mcc: 
+tag: bool value: enabledMMS - true
+tag: int value: maxMessageSize - 307200
+tag: int value: maxImageHeight - 480
+tag: int value: maxImageWidth - 640
+tag: int value: defaultSMSMessagesPerThread - 500
+tag: int value: defaultMMSMessagesPerThread - 50
+tag: int value: minMessageCountPerThread - 10
+tag: int value: maxMessageCountPerThread - 5000
+tag: string value: uaProfUrl - http://www.google.com/oha/rdf/ua-profile-kila.xml
+tag: int value: recipientLimit - -1
+tag: bool value: enableMultipartSMS - true
+tag: bool value: enableSplitSMS - false
+tag: int value: smsToMmsTextThreshold - -1
+tag: bool value: enableSlideDuration - true
+tag: int value: maxMessageTextSize - -1
+tag: bool value: enableSprintVVM - false
+GC_CONCURRENT freed 190K, 13% free 7617K/8711K, paused 1ms+2ms, total 22ms
+GC_CONCURRENT freed 219K, 13% free 7849K/8967K, paused 12ms+12ms, total 40ms
+Get MotionRecognitionManager
+ ssp status : false
+GC_CONCURRENT freed 196K, 13% free 8143K/9287K, paused 1ms+2ms, total 20ms
+[1] [initialize] savedInstanceState = null intent = Intent { act=android.intent.action.SENDTO dat=sms:xxxxxxxxxxxx flg=0x10000000 cmp=com.android.mms/.ui.ComposeMessageActivity (has extras) } mConversation = [101010101010] (tid 12)
+GC_CONCURRENT freed 385K, 15% free 7703K/9031K, paused 1ms+2ms, total 18ms
+called with non-empty working message
+id=512 Removed NapsActivit idx=2 MapSz=4
+id=512 Removed NapsActivit idx=-2 MapSz=4
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+Could not find a dictionary pack
+Failed to find provider info for com.android.inputmethod.latin.dictionarypack
+id=514(1) createSurf 0x4106ee94 (1x1),1 flag=0, DomposeMess
+PhoneWindowManager: focusChangedLw
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+loaded /system/lib/egl/libEGL_mali.so
+loaded /system/lib/egl/libGLESv1_CM_mali.so
+loaded /system/lib/egl/libGLESv2_mali.so
+Device driver API match
+Device driver API version: 10
+User space API version: 10 
+mali: REVISION=Linux-r2p4-02rel0 BUILD_DATE=Thu Oct 25 08:43:05 KST 2012 
+GC_CONCURRENT freed 149K, 12% free 8450K/9543K, paused 12ms+2ms, total 53ms
+Enabling debug mode 0
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+GC_CONCURRENT freed 398K, 16% free 7361K/8711K, paused 1ms+1ms, total 16ms
+GC_CONCURRENT freed 2030K, 16% free 16525K/19463K, paused 22ms+3ms, total 111ms
+id=513 Removed nms idx=4 MapSz=4
+id=513 Removed nms idx=-2 MapSz=4
+getSKAFEnable : false
+
+>>>>>> AndroidRuntime START com.android.internal.os.RuntimeInit <<<<<<
+CheckJNI is OFF
+setted country_code = Nordic
+setted countryiso_code = SE
+setted sales_code = NEE
+readGMSProperty: start
+readGMSProperty: already setted!!
+readGMSProperty: end
+addProductProperty: start
+Trying to load lib libjavacore.so 0x0
+Added shared lib libjavacore.so 0x0
+Trying to load lib libnativehelper.so 0x0
+Added shared lib libnativehelper.so 0x0
+Note: class Landroid/app/ActivityManagerNative; has 155 unimplemented (abstract) methods
+Calling main entry com.android.commands.am.Am
+*** acquire_dvfs_lock : lockType : 1  freq : 1000000 
+acquireDVFSLockLocked : type : DVFS_MIN_LIMIT  frequency : 1000000  uid : 1000  pid : 2189  tag : ActivityManager
+mDVFSLock.acquire()
+Shutting down VM
+GC_CONCURRENT freed 101K, 77% free 591K/2560K, paused 0ms+0ms, total 3ms
+NOTE: attach of thread 'Binder_3' failed
+native_setup
+constructor
+setListener
+setDataSourceFD: fd 61
+setDataSource(61, 0, 576460752303423487)
+Client(12) constructor
+Create new client(12) from pid 20783, uid 10042, 
+setDataSource fd=22, offset=0, length=576460752303423487
+st_dev  = 66307
+st_mode = 33277
+st_uid  = 1000
+st_gid  = 1015
+st_size = 4434705
+calculated length = 4434705
+player type = 3
+ create StagefrightPlayer
+setDefault
+constructor
+setDefault
+reset
+cancel player events
+mAudioTrackVector clear
+StagefrightPlayer
+setListener
+initCheck
+AwesomePlayer running on behalf of uid 10042
+AudioOutput(19)
+setDataSource(22, 0, 4434705)
+setDataSource (26, 0, 4434705)
+cancel player events
+mAudioTrackVector clear
+WVMDrmPlugin::onInitialize : 7628
+WVMDrmPlugin::onSetOnInfoListener : add 7628
+OmaLogOn
+PlayReadyLogOn
+WVMDrmPlugin::onTerminate : 7628
+mBitrate = 128000 bits/sec
+couldn't get userdata - Weather
+couldn't get userdata - Authorization 
+couldn't get userdata - SnapShot 
+current audio track index (0) is added to vector
+setDataSource_l: Audio(1), Video(0)
+AwesomePlayer::setDataSource_l():: This is not a DRM content
+ setDataSource
+setVideoSurfaceTexture
+[12] setVideoSurfaceTexture(0x0)
+prepareAsync
+[12] setAudioStreamType(3)
+[12] prepareAsync
+prepareAsync
+PhoneWindowManager: focusChangedLw
+mInputFocus is not null.
+mInputFocus is not null.
+mInputFocus is not null.
+onPrepareAsyncEvent
+initAudioDecoder()
+Create() mime = audio/mpeg, isAlpAudio = 1
+mInputFocus is not null.
+id=515(2) createSurf 0x412af7dc (1x1),1 flag=0, BudioPrevie
+PhoneWindowManager: focusChangedLw
+Successfully allocated OMX node 'OMX.SEC.MP3.Decoder'
+OMXCodec::configureCodec 2 + 44100 ++ 
+Successfully allocated and configured OMX node 'OMX.SEC.MP3.Decoder , mIsALPrunning =0'
+notifyListner_l() msg (5-MEDIA_SET_VIDEO_SIZE), ext1 (0), ext2 (0)
+[12] notify (0x42e19058)
+[12] notify (0x42e19058, 5, 0, 0)
+message received msg=5, ext1=0, ext2=0
+New video size 0 x 0
+callback application
+back from callback
+notifyListner_l() msg (1-MEDIA_PREPARED), ext1 (0), ext2 (0)
+[12] notify (0x42e19058)
+[12] notify (0x42e19058, 1, 0, 0)
+message received msg=1, ext1=0, ext2=0
+prepared
+callback application
+back from callback
+setSystemUiVisibility(0x0)
+manageDisableList what=0x0 pkg=WindowManager.LayoutParams
+Don't send intent. msg.arg1 = 0, msg.arg2 = 0
+start
+start
+[12] setLooping(0)
+setLooping
+setLooping (0)
+[12] setVolume(1.000000, 1.000000)
+setVolume(1.000000, 1.000000)
+[12] setAuxEffectSendLevel(0.000000)
+setAuxEffectSendLevel(0.000000)
+[12] start
+setLooping
+setLooping (0)
+start
+play
+AwesomePlayer::play_l():: This is not a DRM content
+ Audioplayer kKeyAudioPCMFormat:1, 2, 0
+ Audioplayer1 (2, 1)
+open(44100, 2, 0x0, 1, 4, 19)
+getOutput() tid 2169 ++
+getOutput() tid 2169 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 2169 ++
+getOutput() tid 2169 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+getOutput() tid 2169 ++
+getOutput() tid 2169 --
+getOutput() stream 3, samplingRate 44100, format 1, channelMask 3, flags 8
+getOutput() returns output 2
+setVolume
+getOutput() tid 2169 ++
+getOutput() tid 2169 --
+getOutput() stream 3, samplingRate 0, format 0, channelMask 3, flags 0
+getOutput() returns output 2
+start
+startOutput() output 2, stream 3, session 19
+changeRefCount() stream 3, count 1
+getNewDevice() selected device 2
+AudioHardware::setParameters(keyValuePairs="music_stream_active=true")
+getNewDevice() selected device 2
+getNewDevice() selected device 2
+checkOutputForStrategy(0002,0002,3)
+AudioFlinger::PlaybackThread::addTrack_l() start_output_streamtype(1, 3) for 2
+getDuration
+getDuration
+getDuration
+[12] getDuration = 277133
+getDuration: 277133 (msec)
+preventAutoPowerOff : 0  bPrevent : true
+preventAutoPowerOff : resetAutoPowerOffTimer()
+resetAutoPowerOffTimer : 0
+ AudioFocus  requestAudioFocus() from 20783 focusChangeHint:2
+isPlaying
+[12] isPlaying: 1
+isPlaying: 1
+isPlaying: 1
+showStatusIcon on inactive InputConnection
+Send intent for dismiss clipboard dialog inside hideCurrentInputLocked() !
+UserDep::getRouteInfo(output: audioengine=0, devices=00000002h
+                      incall: onoff=0, devices=00000000h
+                      capture: onoff=0, devices=00000000h, audioSource=0
+                      playback: audio_onoff=1, line_onoff=0)
+Initialized ALSA PLAYBACK device hifi
+getCurrentPosition
+getCurrentPosition: 174 (msec)
+getCurrentPosition
+getCurrentPosition: 174 (msec)
+*** release_dvfs_lock : lockType : 1 
+releaseDVFSLockLocked : all DVFS_MIN_LIMIT are released 
+mDVFSLock.release()
+getCurrentPosition
+getCurrentPosition: 360 (msec)
+getCurrentPosition
+getCurrentPosition: 360 (msec)
+getCurrentPosition
+getCurrentPosition: 545 (msec)
+getCurrentPosition
+getCurrentPosition: 545 (msec)
+getCurrentPosition
+getCurrentPosition: 917 (msec)
+getCurrentPosition
+getCurrentPosition: 917 (msec)
+waitForAlarm result :4
+trigger ELAPSED_REALTIME_WAKEUP or RTC_WAKEUP
+getCurrentPosition
+getCurrentPosition: 1103 (msec)
+getCurrentPosition
+getCurrentPosition: 1103 (msec)
+startScan: false pid=2600, uid=10012
+FACTORY_ON= 0
+FACTORY_ON= 0
+Skipping unknown process pid 21646
+Skipping unknown process pid 21648
+FACTORY_ON= 0
+getCurrentPosition
+getCurrentPosition: 1288 (msec)
+getCurrentPosition
+getCurrentPosition: 1288 (msec)
+getCurrentPosition
+getCurrentPosition: 1474 (msec)
+getCurrentPosition
+getCurrentPosition: 1474 (msec)
+nl80211: Received scan results (13 BSSes)
+interfaceLinkStateChanged wlan0, true
+interfaceStatusChanged wlan0, true
+getCurrentPosition
+getCurrentPosition: 1660 (msec)
+getCurrentPosition
+getCurrentPosition: 1660 (msec)
+FACTORY_ON= 0
+GC_CONCURRENT freed 598K, 16% free 9112K/10823K, paused 13ms+2ms, total 67ms
+WAIT_FOR_CONCURRENT_GC blocked 31ms
+##################### set firmware type 0 #####################
+setWifiEnabled : WifiNative.setFwType(0)
+FACTORY_ON= 0
+getCurrentPosition
+getCurrentPosition: 1846 (msec)
+getCurrentPosition
+getCurrentPosition: 1846 (msec)
+getCurrentPosition
+getCurrentPosition: 2031 (msec)
+getCurrentPosition
+getCurrentPosition: 2031 (msec)
+getCurrentPosition
+getCurrentPosition: 2217 (msec)
+getCurrentPosition
+getCurrentPosition: 2217 (msec)
+update start
+level:31 scale:100 status:2 health:2 present:true voltage: 3751 temperature: 380 technology: Li-ion AC powered:false USB powered:true icon:17303239 invalid charger:0
+In MTPAPP onReceive:android.intent.action.BATTERY_CHANGED
+battPlugged Type : 2
+FACTORY_ON= 0
+getCurrentPosition
+getCurrentPosition: 2403 (msec)
+getCurrentPosition
+getCurrentPosition: 2403 (msec)
+GC_CONCURRENT freed 745K, 19% free 14066K/17159K, paused 61ms+11ms, total 193ms
+getCurrentPosition
+getCurrentPosition: 2589 (msec)
+getCurrentPosition
+getCurrentPosition: 2589 (msec)
+getCurrentPosition
+getCurrentPosition: 2960 (msec)
+getCurrentPosition
+getCurrentPosition: 2960 (msec)
+getCurrentPosition
+getCurrentPosition: 3146 (msec)
+getCurrentPosition
+getCurrentPosition: 3146 (msec)
+getCurrentPosition
+getCurrentPosition: 3332 (msec)
+getCurrentPosition
+getCurrentPosition: 3332 (msec)
