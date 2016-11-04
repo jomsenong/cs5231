@@ -1,0 +1,16 @@
+tap coordinates:
+
+x y app
+30 150 browser
+150 150 calculator
+300 150 calendar
+400 150 camera
+
+400 300 fm radio
+
+
+if want to find activity name, use this command:
+adb shell dumpsys window windows | grep 'mCurrentFocus'
+
+example run of googlemaps activity:
+adb shell am start -n com.google.android.apps.maps/com.google.android.maps.MapsActivity
